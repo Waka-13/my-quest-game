@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квест: Фінал!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Вітаємо! Квест завершено!</h1>
+        <p>Яке число йде за 2?</p>
+        <input type="text" id="answerInput" placeholder="Введіть вашу відповідь">
+        <button onclick="checkAnswer()">Перевірити</button>
+        <p id="feedback" class="hidden"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Специфічні налаштування для Фінального Рівня
+        const correctAnswer = "три"; // Правильна відповідь для цього рівня
+        const nextLevelPage = null; // Немає наступного рівня
+        const levelMessage = "Ти пройшов усі випробування! Мої вітання!"; // Фінальне повідомлення
+    </script>
+</body>
+</html>

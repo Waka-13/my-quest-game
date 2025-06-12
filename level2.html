@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квест: Рівень 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Рівень 2: Продовжуємо!</h1>
+        <p>Скільки лап у кішки?</p>
+        <input type="text" id="answerInput" placeholder="Введіть вашу відповідь">
+        <button onclick="checkAnswer()">Перевірити</button>
+        <p id="feedback" class="hidden"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Специфічні налаштування для Рівня 2
+        const correctAnswer = "чотири"; // Правильна відповідь для цього рівня
+        const nextLevelPage = "level3.html"; // Сторінка наступного рівня
+        const levelMessage = "Вірно! Наступна підказка: шукайте біля води."; // Підказка
+    </script>
+</body>
+</html>

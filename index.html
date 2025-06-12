@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квест: Рівень 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Рівень 1: Початок пригоди!</h1>
+        <p>Який колір неба в сонячний день?</p>
+        <input type="text" id="answerInput" placeholder="Введіть вашу відповідь">
+        <button onclick="checkAnswer()">Перевірити</button>
+        <p id="feedback" class="hidden"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Специфічні налаштування для Рівня 1
+        const correctAnswer = "синій"; // Правильна відповідь для цього рівня
+        const nextLevelPage = "level2.html"; // Сторінка наступного рівня
+        const levelMessage = "Чудово! Ось підказка для наступного QR-коду: шукайте на дереві!"; // Підказка
+    </script>
+</body>
+</html>
